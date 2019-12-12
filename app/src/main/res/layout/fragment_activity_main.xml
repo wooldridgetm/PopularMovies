@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <FrameLayout
+        android:id="@+id/movieListsFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="@android:color/white"
+        android:padding="0dp"
+        tools:context="com.tomwo.app.popularmoviesii.ui.fragments.MainActivityFragment"
+        tools:showIn="@layout/activity_main"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/item_movie_list"
+            />
+
+        <TextView
+            android:id="@+id/offlineView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@android:color/white"
+            android:layout_marginBottom="16dp"
+            android:padding="0dp"
+            android:text="@string/check_internet_connection"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="22sp"
+            android:visibility="gone"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:indeterminate="true"
+            app:elevation="4dp"
+            />
+
+    </FrameLayout>
+</layout>

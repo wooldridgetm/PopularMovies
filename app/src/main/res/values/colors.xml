@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+
+
+    <color name="textViewBackgroundColor">#CCFFFFFF</color>
+
+
+    <!-- Color for an rating with score 0 and 2 -->
+    <color name="rating1">#4A7BA7</color>
+
+    <!-- Rating circle color for an earthquake with score between 2 and 3 -->
+    <color name="rating2">#04B4B3</color>
+
+    <!-- Rating circle color for an earthquake with score between 3 and 4 -->
+    <color name="rating3">#10CAC9</color>
+
+    <!-- Rating circle color for an earthquake with score between 4 and 5 -->
+    <color name="rating4">#F5A623</color>
+
+    <!-- Rating circle color for an earthquake with score between 5 and 6 -->
+    <color name="rating5">#FF7D50</color>
+
+    <!-- Rating circle color for an earthquake with score between 6 and 7 -->
+    <color name="rating6">#FC6644</color>
+
+    <!-- Rating circle color for an earthquake with score between 7 and 8 -->
+    <color name="rating7">#E75F40</color>
+
+    <!-- Rating circle color for an earthquake with score between 8 and 9 -->
+    <color name="rating8">#E13A20</color>
+
+    <!-- Rating circle color for an earthquake with score between 9 and 10 -->
+    <color name="rating9">#D93218</color>
+
+    <!-- Rating circle color for an earthquake with score over 10 -->
+    <color name="rating10plus">#C03823</color>
+</resources>

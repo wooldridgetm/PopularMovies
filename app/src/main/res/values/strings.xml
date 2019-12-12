@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Popular Movies II</string>
+
+    <string name="settings">SETTINGS</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="application">App</string>
+
+    <!-- Preferences -->
+    <string name="pref_sync_default" translatable="false">popular</string>
+    <string name="pref_key_filter" translatable="false">preference_key_movie_list_filter</string>
+    <string name="pref_key_notifications" translatable="false">preference_key_notifications</string>
+
+    <!-- EMPTY textView for RecyclerView-->
+    <string name="check_internet_connection">DEVICE IS OFFLINE</string>
+
+
+    <string name="title_activity_alternate">AlternateActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- DETAIL ACTIVITY TITLE -->
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="image_size" translatable="false">original</string>
+
+    <string name="close">close</string>
+    <string name="filter">FILTER</string>
+    <string name="loading">LOADING…</string>
+    <string name="no_reviews_found">NO REVIEWS FOUND…</string>
+</resources>

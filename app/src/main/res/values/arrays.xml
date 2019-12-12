@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="movies_order_by_entries">
+        <item>Popular</item>
+        <item>Top Rated</item>
+        <item>Favorites</item>
+    </string-array>
+
+    <string-array name="movies_order_by_values">
+        <item>popular</item>
+        <item>top_rated</item>
+        <item>favorites</item>
+    </string-array>
+
+</resources>

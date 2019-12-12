@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <PreferenceCategory
+        android:key="general_settings"
+        android:title="General Settings">
+
+        <CheckBoxPreference
+            android:defaultValue="@bool/notifications"
+            android:key="@string/pref_key_notifications"
+            android:summaryOff="notifications disabled"
+            android:summaryOn="notifications enabled"
+            android:title="NOTIFICATIONS"
+            android:visibility="visible"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>

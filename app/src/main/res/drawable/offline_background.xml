@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Background circle for the movie rating value value -->
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#99F44336" />
+
+    <size
+        android:width="30dp"
+        android:height="15dp" />
+
+
+</shape>
